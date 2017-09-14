@@ -6,7 +6,6 @@
 //
 //
 import Foundation
-import CIfaddrs
 
 public struct IPAddress {
   

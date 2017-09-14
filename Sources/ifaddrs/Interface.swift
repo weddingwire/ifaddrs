@@ -1,5 +1,4 @@
 import Foundation
-import CIfaddrs
 
 /**
  * This class represents a network interface in your system. For example, `en0` with a certain IP address.
