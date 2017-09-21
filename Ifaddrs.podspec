@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name            = 'ifaddrs'
-  s.version         = '0.0.1'
+  s.version         = '0.0.2'
   s.summary         = 'Swift module map for ifaddrs.'
   s.description     = 'Module maps for importing Ifaddrs C libs to Swift.'
   s.homepage        = 'https://github.com/kmussel/ifaddrs'
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
   s.pod_target_xcconfig = {
     'SWIFT_INCLUDE_PATHS[sdk=macosx*]'           => '$(PODS_ROOT)/Ifaddrs/CocoaPods/macosx',
     'SWIFT_INCLUDE_PATHS[sdk=iphoneos*]'         => '$(PODS_ROOT)/Ifaddrs/CocoaPods/iphoneos',
-    'SWIFT_INCLUDE_PATHS[sdk=iphonesimulator*]'  => '$(PODS_ROOT)/Ifaddrs/CocoaPods/iphonesimulator',    
+    'SWIFT_INCLUDE_PATHS[sdk=iphonesimulator*]'  => '$(PODS_ROOT)/Ifaddrs/CocoaPods/iphonesimulator',
   }
   s.prepare_command = <<-CMD
                ./CocoaPods/injectXcodePath.sh

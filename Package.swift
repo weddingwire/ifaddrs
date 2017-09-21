@@ -6,6 +6,6 @@ let package = Package(
         Target(name: "ifaddrs"),
     ],
     dependencies: [
-    	.Package(url: "https://github.com/kmussel/cifaddrs.git", "0.0.1"),
+    	.Package(url: "https://github.com/macbellingrath/cifaddrs.git", "0.0.2"),
     ]
 )
